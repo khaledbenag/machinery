@@ -36,7 +36,7 @@ get_base_folder = {
 def download_data(data_type: str = None):
     if data_type is None:
         raise Exception("data_type must be defined")
-    default_path = os.path.join(os.path.dirname(__file__), "data")
+    default_path = os.path.join(os.getcwd(), "data")
     if data_type in ["ampere_rotor", "ampere_stator"]:
         extract_folder = "ampere_extracted_data"
     elif data_type in ["metallicadour_drifts", "metallicadour_toolwear"]:
