@@ -24,6 +24,10 @@ The available datasets include:
 
 ## Installation
 
+Make sure to **Enable Long Paths in Windows** before using the package on **Windows**.
+
+By default, Windows has a limitation on the maximum path length, which might cause issues when using certain packages.
+
 Install the Machinery Data Loader package using pip:
 
 ```bash
