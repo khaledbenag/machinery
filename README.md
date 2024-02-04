@@ -27,7 +27,7 @@ The available datasets include:
 Install the Machinery Data Loader package using pip:
 
 ```bash
-pip install machinery-loader
+pip install machinery-diag
 
 ```
 

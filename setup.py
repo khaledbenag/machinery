@@ -43,12 +43,12 @@ def get_version(version_filepath: str) -> str:
         raise RuntimeError("Unable to find version string.")
 
 
-with open("requirements.txt", encoding="utf8") as file:
+with open("./requirements.txt", encoding="utf8") as file:
     dependencies = file.read().splitlines()
 
 
 setup(
-    name="machinery_diag",
+    name="machinery-diag",
     version=get_version("machinery/version.py"),
     author="Khaled Benaggoune",
     author_email="khaled.mommi@gmail.com",
